@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>부산박물관</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <!-- font -->
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="header">
+          <div class="logo"></div>
+
+          <ul class="gnb">
+            <li><a href="#">이용안내</a></li>
+            <li><a href="#">전시</a></li>
+            <li><a href="#">교육</a></li>
+            <li><a href="#">문화생활</a></li>
+            <li><a href="#">소장품</a></li>
+            <li><a href="#">학술연구</a></li>
+            <li><a href="#">소식 • 참여</a></li>
+            <li><a href="#">박물관 소개</a></li>
+          </ul>
+
+          <div class="h_etc">
+            <div class="lug">
+              <p>언어</p>
+              <div class="lug_img"></div>
+            </div>
+
+            <div class="serch_box">
+              <div class="serch_icon"></div>
+            </div>
+
+            <div class="login">로그인</div>
+
+            <div class="r_check">예약확인</div>
+
+            <div class="ham"></div>
+          </div>
+        </div>
+      </header>
+
+      <!-- header end -->
+
+      <section class="section_1">
+        <div class="sec1_container">
+          <div class="swiper sec1_swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/sec1_1.png" alt="" />
+                <img src="img/sec1_1_m.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/sec1_2.png" alt="" />
+                <img src="img/sec1_2_m.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/sec1_3.png" alt="" />
+                <img src="img/sec1_3_m.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/sec1_4.png" alt="" />
+                <img src="img/sec1_4_m.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="reservation">
+            <div class="re_title">
+              <p id="groupVisit">단체관람</p>
+              <p id="experienceTour">견학·체험</p>
+            </div>
+
+            <div class="re_group">
+              <div class="date">
+                <p>희망 관람 날짜</p>
+                <input
+                  type="date"
+                  id="date"
+                  max="2025-12-25"
+                  min="2024-11-01"
+                  value="2024-11-01"
+                />
+              </div>
+
+              <div class="time">
+                <p>희망 관람 시간</p>
+                <input
+                  type="time"
+                  id="timeInput"
+                  list="timeOptions"
+                  placeholder="시간을 선택하세요"
+                />
+                <datalist id="timeOptions">
+                  <!-- JavaScript를 통해 시간이 추가됩니다 -->
+                </datalist>
+              </div>
+
+              <div class="people">
+                <p>인원수</p>
+                <input
+                  type="number"
+                  id="personCount"
+                  name="personCount"
+                  min="4"
+                  max="15"
+                  step="1"
+                  value="4"
+                />
+              </div>
+
+              <div class="apply">
+                <p>전시 해설</p>
+                <div class="apply_win">
+                  <label for="apply_for">
+                    <input
+                      type="radio"
+                      name="applicationStatus"
+                      id="apply_for"
+                      value="apply"
+                      checked
+                    />
+                    신청
+                  </label>
+                  <label for="notApply">
+                    <input
+                      type="radio"
+                      name="applicationStatus"
+                      id="notApply"
+                      value="notApply"
+                    />
+                    미신청
+                  </label>
+                </div>
+              </div>
+
+              <div class="book">
+                <p>예약하기</p>
+                <button>예약하기</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="inform">
+            <div class="inform_left">
+              <div class="in_title">
+                <p>부산시립박물관</p>
+                <p>BUSAN MUSEUM</p>
+              </div>
+
+              <div class="in_address">
+                <p>부산광역시 남구 유엔평화로 63(대연동)</p>
+                <p>관람 문의 : 051-610-711</p>
+              </div>
+            </div>
+
+            <div class="inform_right">
+              <table class="w_table">
+                <tr>
+                  <td>관람시간</td>
+                  <td>화요일~일요일</td>
+                  <td>09:00 ~ 18:00</td>
+                </tr>
+
+                <tr>
+                  <td>입장시간</td>
+                  <td>화요일~일요일</td>
+                  <td>09:00 ~ 17:00</td>
+                </tr>
+
+                <tr>
+                  <td>휴관일</td>
+                  <td colspan="2">
+                    1월1일, 매주 월요일 <br />
+                    <span>⁕단, 월요일이 공휴일인 경우 다음날 휴관</span>
+                  </td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>관람료</td>
+                  <td colspan="2">무료</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>편의시설</td>
+                  <td colspan="2">3대의 휠체어 / 3대의 유모차</td>
+                  <td></td>
+                </tr>
+              </table>
+
+              <div class="in_address m">
+                <p>부산광역시 남구 유엔평화로 63(대연동)</p>
+                <p>관람 문의 : 051-610-711</p>
+              </div>
+
+
+            </div>
+        </div>
+      </section>
+      <!-- section 1 end -->
+
+      <section class="section_2">
+        <div class="sec2_container">
+
+          <div class="title">
+            <p>전시장 안내</p>
+            <p>부산박물관의 전시장을 소개해드립니다.</p>
+          </div>
+
+          <div class="sec2_conwrap">
+
+            <div class="sec2_con sec2_right">
+
+              <div class="sec2_letter">
+
+                <div class="sec2_con_title">
+                  <p class="sec2_ex">특별전시</p>
+                  <p>우리가 인디언으로 알던 사람들</p>
+                </div>
+  
+                <div class="sec2_con_text">
+                  <p class="rntjrrl">
+                    북미 원주민 예술가들의 작품을 수집한 박물관 중 하나인
+                    덴버박물관의 소장자료 중 북미 원주민의 다양한 역사와 풍부한
+                    이야기가 담긴 150여 점을 출품합니다.
+                  </p>
+                  <ul class="sec2_etc">
+                    <li>기 간 | 2024 -10-26 ~ 2025-02-16</li>
+                    <li>장 소 | 부산박물관 기획전시실</li>
+                  </ul>
+                </div>
+
+              </div>
+
+ 
+              <div class="sec2_img">
+                <img src="img/sec2_1.png" alt="">
+                <img src="img/sec2_1_m.png" alt="">
+              </div>
+            </div>
+
+            <div class="sec2_con sec2_left">
+
+              <div class="sec2_letter">
+
+                <div class="sec2_con_title">
+                  <p>동래관</p>
+                </div>
+  
+                <div class="sec2_con_text">
+                  <p>
+                    부산 역사는 구석기시대로 거슬러 갑니다.
+                    이 시대 문화를 보여줄 수 있는 해운대구 청사포•좌동•중동유적에서
+                    출토된 석기를 소개합니다.
+                  </p>
+
+                  <div class="sec2_list">
+
+                    <div class="sec2_class">
+
+                      <p>선사실</p>
+                      
+                      <ul class="sec2_etc">
+                        <li>구석기시대</li>
+                        <li>신석기시대</li>
+                        <li>청동기시대</li>
+                        <li>삼한시대</li>
+                      </ul>
+
+                    </div>
+
+                    <div class="sec2_class">
+
+                      <p>고대·중세실 </p>
+  
+                      <ul class="sec2_etc">
+                        <li>삼국시대</li>
+                        <li>통일신라시대</li>
+                        <li>고려시대</li>
+                      </ul>
+  
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+ 
+              <div class="sec2_img">
+                <img src="img/sec2_2.png" alt="">
+                <img src="img/sec2_2_m.png" alt="">
+              </div>
+            </div>
+
+            <div class="sec2_con sec2_right">
+
+              <div class="sec2_letter">
+
+                <div class="sec2_con_title">
+                  <p>부산관</p>
+                </div>
+  
+                <div class="sec2_con_text">
+                  <p>
+                    동래부의 위상 • 임진왜란 • 통신사 • 왜관 등 부산 중심으로 펼쳐진
+                    역사를 주제별로 나누어져 소개합니다.
+                  </p>
+
+                  <ul class="sec2_etc sec2_etc2">
+                    <li>조선실</li>
+                    <li>근대실</li>
+                    <li>현대실</li>
+                    <li>미술실</li>
+                  </ul>
+
+                </div>
+
+              </div>
+
+ 
+              <div class="sec2_img">
+                <img src="img/sec2_3.png" alt="">
+                <img src="img/sec2_3_m.png" alt="">
+              </div>
+            </div>
+
+            <div class="sec2_con sec2_left">
+
+              <div class="sec2_letter">
+
+                <div class="sec2_con_title">
+                  <p>야외전시</p>
+                </div>
+  
+                <div class="sec2_con_text">
+                  <p>
+                    야외 정원에는 동래남문비, 척화비, 사처 석교비 등 지정문화유산을
+                    비롯하여, 40여점의 석조물들이 전시되어 있습니다.
+                  </p>
+                </div>
+
+              </div>
+
+ 
+              <div class="sec2_img">
+                <img src="img/sec2_4.png" alt="">
+                <img src="img/sec2_4_m.png" alt="">
+              </div>
+            </div>
+            
+
+          </div>
+
+
+        </div>
+      </section>
+      <!-- section 2 end -->
+
+      <section class="section_3">
+
+        <div class="sec3_wrap">
+          <div class="title">
+            <p>부산박물관의 소장품</p>
+            <p>부산박물관이 소장하고 있는 작품들을 둘러보세요.</p>
+          </div>
+          
+          <div class="sec3_container">
+            <div class="sec3_img_wrap">
+  
+              <div class="sec3_img_col">
+                <img src="img/sec3_1.png" alt="">
+                <img src="img/sec3_2.png" alt="">
+                <img src="img/sec3_3.png" alt="">
+                <img src="img/sec3_4.png" alt="">
+              </div>
+  
+              <div class="sec3_img_col">
+                <img src="img/sec3_5.png" alt="">
+                <img src="img/sec3_6.png" alt="">
+                <img src="img/sec3_7.png" alt="">
+                <img src="img/sec3_8.png" alt="">
+              </div>
+  
+              <div class="sec3_img_col">
+                <img src="img/sec3_9.png" alt="">
+                <img src="img/sec3_10.png" alt="">
+                <img src="img/sec3_11.png" alt="">
+                <img src="img/sec3_12.png" alt="">
+                <img src="img/sec3_13.png" alt="">
+              </div>
+  
+               
+            </div>
+
+            <div class="sec3_btn">
+              <button>더보기</button>
+            </div>
+
+          </div>
+
+          <div class="sec3_btn_m">
+            <button>더보기</button>
+          </div>
+          
+        </div>
+      </section>
+      <!-- section 3 end -->
+
+      <section class="section_4">
+
+        <div class="sec4_container">
+
+          <div class="title">
+            <p>부산박물관의 소식</p>
+            <p>부산박물관이 알려드립니다.</p>
+          </div>
+
+          <div class="sec4_btn">
+            <button id="sec4_news">박물관 소식</button>
+            <button id="sec4_script">보도자료</button>
+          </div>
+
+          <ul class="notice">
+            <li>
+              <div class="n_date">2024-11-08</div>
+              <div class="n_title">2024년 교류기획전 <우리가 인디언으로 알던 사람들> 도슨트 전시 해설 안내</div>
+              <div class="n_icon"></div>
+              <div class="n_division">전시운영팀</div>
+            </li>
+
+            <li>
+              <div class="n_date">2024-03-08</div>
+              <div class="n_title">2024<주말엔 박물관>"나는 문화유산 의사" 운영 안내</div>
+              <div class="n_icon"></div>
+              <div class="n_division">교육홍보팀</div>
+            </li>
+
+            <li>
+              <div class="n_date">2024-11-07</div>
+              <div class="n_title">2024 대학수학능력시험일(11.14.목) 개관시간 조정 안내</div>
+              <div class="n_icon"></div>
+              <div class="n_division">교육홍보팀</div>
+            </li>
+
+            <li>
+              <div class="n_date">2024-11-05</div>
+              <div class="n_title">제 19회 부산불꽃축제 개최 관련 교통통제를 아래와 같이 알려드립니다.</div>
+              <div class="n_icon"></div>
+              <div class="n_division">관광정책과</div>
+            </li>
+
+            <li>
+              <div class="n_date">2024-11-04</div>
+              <div class="n_title">2024 <박물관 요미조미>2차 신청안내</div>
+              <div class="n_icon"></div>
+              <div class="n_division">교육홍보팀</div>
+            </li>
+
+            
+          </ul>
+        </div>
+      </section>
+      <!-- section 4 end -->
+
+      <section class="section_5">
+
+        <div class="sec5_container">
+          <div class="title">
+            <p>부산의 박물관</p>
+            <p>부산의 또 다른 박물관을 소개해드릴게요</p>
+          </div>
+
+          <div class="sec5_wrap">
+
+            <div class="sec5_con">
+              <img src="img/bcm.png" alt="">
+              <img src="img/sec5_op.png" alt="">
+              <p>북천박물관</p>
+            </div>
+
+            <div class="sec5_con">
+              <img src="img/jrm.png" alt="">
+              <img src="img/sec5_op.png" alt="">
+              <p>정관박물관</p>
+            </div>
+
+            <div class="sec5_con">
+              <img src="img/dsdm.png" alt="">
+              <img src="img/sec5_op.png" alt="">
+              <p>동삼동패총전시관</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- section 5 end -->
+
+      <footer>
+
+        <div class="f_container">
+
+          <div class="f_top">
+
+            <ul class="f_gnb">
+              <li><a href="#">약관</a></li>
+              <li><a href="#">저작권 보호정책</a></li>
+              <li><a href="#">개인정보 처리방침</a></li>
+              <li><a href="#">행정서비스헌장</a></li>
+              <li><a href="#">뷰어다운로드</a></li>
+              <li><a href="#">찾아오시는 길</a></li>
+            </ul>
+
+            <ul class="f_gnb f_gnb_m">
+              <div class="f_g_top">
+                <li><a href="#">약관</a></li>
+                <li><a href="#">저작권 보호정책</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+              </div>
+
+              <div class="f_g_bottom">
+                <li><a href="#">행정서비스헌장</a></li>
+                <li><a href="#">뷰어다운로드</a></li>
+                <li><a href="#">찾아오시는 길</a></li>
+              </div>
+            </ul>
+  
+            <div class="f_finer"></div>
+          </div>
+
+          <div class="f_bot">
+
+            <ul class="f_info">
+              <li>부산시립박물관</li>
+              <li>부산광역시 남구 유엔평화로 63(대연동) 부산시립박물관</li>
+              <li>문의 : 051-610-7111</li>
+              <li>OPEN 09:00-17:00</li>
+              <li>CLOSED Sunday</li>
+            </ul>
+  
+            <div class="f_sns">
+              <p>부산박물관 소식 구독하기</p>
+              <ul class="f_icon">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+        <p class="right">Copyright©Busan Metropolitan City.All right reserved.</p>
+        <div class="f_logo"></div>
+      </footer>
+      <!-- footer end -->
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".sec1_swiper", {
+        // autoplay: true, //자동 재생 여부
+        // loop: true, //반복 재생 여부
+      });
+
+      const dateControl = document.querySelector('input[type="date"]');
+      dateControl.value = "2024-12-01";
+      console.log(dateControl.value); // '2024-11-01'
+      console.log(dateControl.valueAsNumber); // 1496275200000, JavaScript 타임스탬프 (밀리초)
+
+      function generateTimeOptions() {
+        const datalist = document.getElementById("timeOptions");
+        for (let hour = 9; hour <= 17; hour++) {
+          const option = document.createElement("option");
+          option.value = `${String(hour).padStart(2, "0")}:00`;
+          datalist.appendChild(option);
+        }
+      }
+
+      window.onload = generateTimeOptions;
+
+     // DOM이 완전히 로드된 후 JavaScript 실행
+    document.addEventListener("DOMContentLoaded", function () {
+      // 단체관람 p 태그에 'clicked' 클래스 미리 추가
+      const groupVisitElement = document.getElementById("groupVisit");
+      groupVisitElement.classList.add("clicked");
+
+      // 단체관람 p 클릭 시 색상 변경
+      groupVisitElement.addEventListener("click", function () {
+        // 두 번째 p 태그의 'clicked' 클래스 제거
+        document.getElementById("experienceTour").classList.remove("clicked");
+
+        // 첫 번째 p 태그에 'clicked' 클래스 추가
+        this.classList.add("clicked");
+      });
+
+      // 견학·체험 p 클릭 시 색상 변경
+      const experienceTourElement = document.getElementById("experienceTour");
+        experienceTourElement.addEventListener("click", function () {
+        // 첫 번째 p 태그의 'clicked' 클래스 제거
+        groupVisitElement.classList.remove("clicked");
+
+        // 두 번째 p 태그에 'clicked' 클래스 추가
+        this.classList.add("clicked");
+      });
+    });
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const scrollable = document.querySelector(".sec3_img_wrap");
+
+    function autoScroll() {
+      scrollable.scrollTop += 1; // 1px씩 스크롤
+      if (scrollable.scrollTop >= scrollable.scrollHeight - scrollable.clientHeight) {
+        scrollable.scrollTop = 0; // 끝에 도달하면 처음으로
+      }
+    }
+
+    setInterval(autoScroll, 30); // 30ms마다 실행
+  });
+
+
+
+
+  
+  // DOM이 완전히 로드된 후 JavaScript 실행
+document.addEventListener("DOMContentLoaded", function () {
+  // id="sec4_news"에 'clicked' 클래스 미리 추가
+  const newsElement = document.getElementById("sec4_news");
+  newsElement.classList.add("sec4_clicked"); // 초기 강조 클래스 추가
+
+  // id="sec4_news" 클릭 시 색상 변경
+  newsElement.addEventListener("click", function () {
+    // id="sec4_script"의 'clicked' 클래스 제거
+    document.getElementById("sec4_script").classList.remove("sec4_clicked");
+
+    // id="sec4_news"에 'clicked' 클래스 추가
+    this.classList.add("sec4_clicked");
+  });
+
+  // id="sec4_script" 클릭 시 색상 변경
+  const scriptElement = document.getElementById("sec4_script");
+  scriptElement.addEventListener("click", function () {
+    // id="sec4_news"의 'clicked' 클래스 제거
+    newsElement.classList.remove("sec4_clicked");
+
+    // id="sec4_script"에 'clicked' 클래스 추가
+    this.classList.add("sec4_clicked");
+  });
+});
+
+    </script>
+  </body>
+</html>

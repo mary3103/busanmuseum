@@ -1,0 +1,1085 @@
+@media screen and (max-width: 1700px) {
+  .header {
+    padding: 0 80px;
+  }
+
+  .logo {
+    margin-right: 60px;
+  }
+
+  .gnb {
+    width: 600px;
+  }
+
+  .h_etc {
+    width: 200px;
+  }
+
+  .serch_box {
+    display: none;
+  }
+
+  /* header end */
+
+  .section_2{
+    padding: 160px 80px
+  }
+
+  .sec2_img{
+    height: 350px
+  }
+
+  .sec2_con_title{
+    font-size: 30px;
+  }
+
+  .sec2_ex{
+    font-size: 20px;
+  }
+
+  .sec2_con_text{
+    font-size: 18px;
+  }
+
+  .sec2_etc li{
+    font-size: 16px;
+  }
+
+  /* section2 end */
+
+  .sec3_wrap{
+    padding: 100px 80px;
+  }
+
+  .sec3_btn button{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  /* sec3 end */
+
+  .sec4_container, .sec5_container{
+    padding: 160px 80px;
+  }
+
+  /* ========= */
+
+  .f_container{
+    padding: 50px 80px 20px 80px;
+  }
+  
+}
+
+@media screen and (max-width: 1440px) {
+  .reservation {
+    bottom: 35%;
+  }
+
+  .inform {
+    height: 280px;
+    padding: 25px 50px;
+  }
+
+  table {
+    width: 500px;
+    font-size: 18px;
+  }
+
+  .in_title p:first-child {
+    font-size: 45px;
+  }
+
+  .in_title p:last-child {
+    font-size: 32px;
+  }
+
+  .in_address {
+    font-size: 18px;
+  }
+
+  /* section 1 end */
+
+  .title {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .title p:last-child {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .section_2{
+    padding: 140px 80px
+  }
+
+  /* section 2 end */
+
+  .notice li{
+    font-size: 22px;
+  }
+
+  .n_icon{
+    width: 20px;
+    height: 20px;
+  }
+
+  .sec4_btn button{
+    height: 60px;
+    font-size: 22px;
+  }
+
+  /* section 4 end */
+
+  .sec5_con{
+    font-size: 24px;
+  }
+
+  /* ======== */
+  
+  .f_finer{
+    width: 250px;
+  }
+
+  .f_sns{
+    width: 250px;
+  }
+
+  .f_icon{
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 0 50px;
+    height: 80px;
+  }
+
+  .lug {
+    display: none;
+  }
+
+  .h_etc {
+    width: 120px;
+  }
+
+  .logo {
+    width: 100px;
+    margin-right: 20px;
+  }
+
+  /* header end */
+
+  .reservation {
+    width: 660px;
+    height: 110px;
+    padding: 10px;
+  }
+
+  .re_title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  input[type="date"] {
+    width: 160px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 35px;
+    background: url(../img/calendar.png) no-repeat left 8px center / 20px auto;
+    background-color: #fff;
+  }
+
+  input[type="time"] {
+    width: 160px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 35px;
+    background: url(../img/time.png) no-repeat left 8px center / 20px auto;
+    background-color: #fff;
+  }
+
+  input[type="number"] {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 35px;
+    background: url(../img/people.png) no-repeat left 8px center / 20px auto;
+    background-color: #fff;
+  }
+
+  .apply_win {
+    width: 160px;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 35px;
+    background: url(../img/apply.png) no-repeat left 8px center / 20px auto;
+    background-color: #fff;
+    line-height: 30px;
+  }
+
+  .book button {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+  }
+  .date p,
+  .time p,
+  .people p,
+  .apply p,
+  .book p {
+    padding-bottom: 8px;
+    font-size: 15px;
+  }
+
+  /* ----------reservation-------- */
+
+  .inform {
+    height: 250px;
+    padding: 25px 50px;
+  }
+
+  table {
+    width: 480px;
+    font-size: 16px;
+  }
+
+  table span {
+    font-size: 14px;
+  }
+
+  .in_title p:first-child {
+    font-size: 40px;
+  }
+
+  .in_title p:last-child {
+    font-size: 28px;
+  }
+
+  .in_address {
+    font-size: 16px;
+  }
+  th,
+  td {
+    padding: 3px;
+  }
+
+  /* ---------------------- */
+
+  .title {
+    font-size: 38px;
+  }
+  
+  .title p:last-child {
+    font-size: 18px;
+  }
+
+  .section_2{
+    padding: 60px 50px
+  }
+
+  .sec2_con {
+    margin-top: 50px;
+  }
+
+  .sec2_con_title {
+    font-size: 28px;
+  }
+  
+  .sec2_ex{
+    font-size: 20px;
+  }
+  
+  .sec2_con_text {
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 1.3;
+  }
+
+  .sec2_etc{
+    padding-top: 20px;
+  }
+  
+  .sec2_etc li {
+    font-size: 14px;
+  }
+  .sec2_etc2 li{
+    font-size: 14px;
+  }
+
+  .sec2_class{
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  /* section 2 end */
+
+  .sec3_wrap{
+    padding: 50px 50px;
+  }
+
+  .sec3_container{
+    height: 1000px;
+  }
+  .sec3_btn button{
+    width: 280px;
+    height: 60px;
+    bottom: 60px;
+  }
+
+  /* section 3 end */
+
+  .sec4_container{
+    padding: 100px 50px;
+  }
+  .notice li{
+    font-size: 20px;
+  }
+
+  .sec4_btn{
+    padding-top: 30px;
+  }
+  .sec4_btn button{
+    font-size: 20px;
+  }
+
+  /* section 4 end */
+
+  .sec5_container{
+    padding: 100px 50px;
+  }
+
+  .sec5_con{
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  .f_container{
+    padding: 50px 50px 0 50px;
+  }
+}
+
+@media screen and (max-width : 1180px) {
+  .f_gnb{
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .inform {
+    height: 200px;
+    padding: 10px 25px;
+  }
+
+  .in_title p:first-child {
+    font-size: 30px;
+  }
+
+  .in_title p:last-child {
+    font-size: 20px;
+  }
+
+  table {
+    width: 420px;
+  }
+
+  th,
+  td {
+    padding: 2px;
+  }
+
+  /* --------------------------- */
+
+  .sec2_class:nth-child(2)>.sec2_etc{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .sec2_class:nth-child(2)>.sec2_etc li{
+    width: 100%;
+  }
+
+  .sec2_con_title {
+    font-size: 24px;
+  }
+
+  .sec2_ex{
+    font-size: 18px;
+  }
+
+  .sec2_con_text {
+    font-size: 16px;
+    padding-top: 15px;
+    line-height: 1.3;
+  }
+
+  .sec2_etc{
+    padding-top: 15px;
+  }
+  
+  .sec2_class{
+    padding-top: 15px;
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .sec2_con {
+    margin-top: 30px;
+  }
+  
+  /* section 2 end */
+
+  .notice{
+    padding: 30px;
+  }
+
+  /* section 4 end */
+
+  .sec5_container{
+    padding: 100px 50px;
+  }
+
+  .sec5_con{
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  /* section 5 end */
+
+  .f_container{
+    padding: 50px 50px;
+    font-size: 16px; 
+  }
+
+  .f_gnb{
+    width: 650px;
+  }
+
+  .f_finer{
+    width: 220px;
+  }
+
+
+  .f_sns, .f_icon{
+    width: 220px;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+  .header {
+    padding: 0 30px;
+    height: 70px;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  .gnb {
+    display: none;
+  }
+
+  .ham {
+    display: block;
+  }
+
+  .h_etc {
+    width: 160px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  /* header end */
+
+  .inform {
+    height: 180px;
+  }
+
+  tr,
+  td {
+    padding: 0;
+  }
+/* section 1 end */
+  .title {
+    font-size: 30px;
+  }
+
+  .section_2{
+    padding: 50px 30px
+  }
+
+/* section 2 end */
+
+.sec3_wrap{
+  padding: 30px 30px;
+}
+
+.sec3_container{
+  height: 600px;
+}
+.sec3_btn button{
+  width: 240px;
+  height: 50px;
+  font-size: 18px;
+  bottom: 60px;
+}
+
+.sec3_img_col:nth-child(2){
+  display : none;
+}
+
+.sec3_img_col {
+  width : 49%
+}
+
+/* section 3 end */
+
+.sec4_container{
+  padding: 50px 30px;
+}
+
+.notice{
+  padding: 20px;
+}
+
+.notice li{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sec4_btn button{
+  font-size: 18px;
+  height: 50px;
+}
+
+/* section 4 end */
+
+.sec5_container{
+  padding: 60px 30px;
+}
+
+.sec5_con{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* section 5 end */
+
+.f_container{
+  padding: 50px 30px 20px 30px;
+}
+
+.f_top{
+  display: block;
+}
+
+.f_gnb{
+  width: 100%;
+}
+
+.f_finer{
+  margin-top: 15px;
+  width: 100%;
+}
+
+.f_bot{
+  width: 100%;
+
+}
+
+.f_sns{
+  width: 30%;
+}
+
+.f_icon{
+  width: 100%;
+}
+
+.f_icon li{
+  width: 24px;
+  height: 24px;
+}
+
+footer{
+  padding-bottom: 30px;
+}
+}
+
+@media screen and (max-width: 860px) {
+  .header {
+    padding: 0 20px;
+    height: 60px;
+  }
+  /* swiper mobile */
+
+  .swiper-slide img:first-child {
+    display: none;
+  }
+
+  .swiper-slide img:last-child {
+    display: block;
+    height: 1100px;
+  }
+
+  /* ------------------ */
+
+  .in_address {
+    display: none;
+  }
+  .m {
+    display: block;
+  }
+
+  .inform {
+    display: block;
+    height: 420px;
+    background-color: #00000060;
+    color: #fff;
+    bottom: 0px;
+  }
+
+  .inform_right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 310px;
+    margin-top: 10px;
+  }
+
+  table {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .reservation {
+    width: 100%;
+    height: 110px;
+    padding: 10px 30px;
+    bottom: 420px;
+    font-size: 14px;
+  }
+
+  .re_title {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  .date {
+    width: 24%;
+  }
+  input[type="date"] {
+    width: 100%;
+  }
+
+  .time {
+    width: 24%;
+  }
+
+  input[type="time"] {
+    width: 100%;
+  }
+
+  .people {
+    width: 10%;
+  }
+
+  input[type="number"] {
+    width: 100%;
+  }
+
+  .apply {
+    width: 29%;
+  }
+
+  .apply_win {
+    width: 100%;
+  }
+
+  .book {
+    width: 11%;
+  }
+
+  .book button {
+    width: 100%;
+  }
+  .date p,
+  .time p,
+  .people p,
+  .apply p,
+  .book p {
+    padding-bottom: 6px;
+    font-size: 15px;
+  }
+
+  .reservation {
+    padding: 10px 20px;
+    bottom: 420px;
+  }
+
+  .re_title {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  /* ------------------------------------ */
+
+
+  .section_2{
+    padding: 40px 20px
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .title p:last-child {
+    font-size: 18px;
+  }
+
+  .sec2_con{
+    flex-direction: column-reverse;
+  }
+
+  .sec2_img{
+    width: 100%;
+    height: fit-content;
+  }
+
+  .sec2_img img:nth-child(1){
+    display: none;
+  }
+
+  .sec2_img img:nth-child(2){
+    display: block;
+  }
+
+  .sec2_letter{
+    width: 100%;
+  }
+
+  .sec2_right>.sec2_letter>.sec2_con_title p,
+ .sec2_right>.sec2_letter>.sec2_con_text p,
+ .sec2_right>.sec2_letter>.sec2_con_text>.sec2_etc> li{
+  text-align: left;
+}
+
+.rntjrrl{
+  display: none;
+}
+
+.sec2_con:nth-child(3)>.sec2_letter>.sec2_con_text {
+  align-items: flex-start;
+}
+
+.sec2_list{
+  display: none;
+}
+
+.sec2_etc2{
+  display: none;
+}
+.sec2_con_title{
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.sec2_con_text {
+  padding-top: 10px;
+}
+
+.sec2_etc{
+  padding-top: 0;
+}
+
+/* section 2 end */
+
+.sec3_wrap{
+  padding: 30px 20px;
+}
+
+.sec3_container{
+  height: 460px;
+}
+
+.sec3_img_wrap{
+  margin-top: 30px;
+}
+
+.sec3_btn{
+  display: none;
+}
+
+.sec3_btn_m{
+  display: block;
+}
+
+.sec3_btn_m{
+  text-align: center;
+}
+
+.sec3_btn_m button{
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+/* setion 3 end */
+
+.n_title{
+  width: 60%;
+}
+
+/* =============== */
+
+.sec4_container{
+  padding: 40px 20px;
+}
+
+.sec5_container{
+  padding: 50px 20px;
+}
+
+/* section 5 end */
+
+.f_container{
+  padding: 50px 20px 20px 20px;
+}
+
+}
+
+@media screen and (max-width: 760px) {
+  .inform {
+    padding: 20px 20px;
+  }
+  .m {
+    opacity: 0.8;
+  }
+
+  table {
+    font-size: 18px;
+  }
+
+  /* =========================== */
+
+  .sec5_wrap{
+    display: block;
+  }
+
+  .sec5_con{
+    width: 100%;
+    height: 180px;
+    position: relative;
+  }
+
+  .sec5_con img:nth-child(2){
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+
+  .sec5_con p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 6;
+  }
+  
+  .sec5_con p{
+    font-size: 25px;
+  }
+  .sec5_con img{
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width : 660px) {
+
+  .f_sns{
+    width: 170px;
+    font-size: 14px;
+  }
+  .f_bot{
+    flex-direction: column-reverse;
+  }
+
+  .f_info{
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .right{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .f_gnb{
+    display: none;
+  }
+
+  .f_gnb_m{
+    display: block;
+    font-size: 14px;
+  }
+
+  .f_g_top, .f_g_bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .f_gnb_m li{
+    margin-bottom: 10px;
+  }
+  .f_logo{
+    width: 100px;
+  }
+  
+}
+
+@media screen and (max-width: 630px) {
+  .reservation {
+    height: 100px;
+    width: 100%;
+  }
+
+  .date,
+  .time,
+  .people,
+  .apply {
+    display: none;
+  }
+
+  .book p {
+    display: none;
+  }
+
+  .book {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .book button {
+    width: 100%;
+    height: 40px;
+  }
+
+  table {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .title p:last-child {
+    font-size: 16px;
+  }
+
+  /* =----------- */
+
+  .n_title{
+    width: 50%;
+  }
+
+  /* =--------------- */
+
+  .notice li{
+    font-size: 16px;
+  }
+
+  .n_date{
+    display: none;
+  }
+
+  .n_title{
+    width: 65%;
+  }
+
+  .sec4_btn {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .sec4_btn button{
+    font-size: 16px;
+    height: 40px;
+  }
+
+  /* section 4 end */
+
+  .sec5_con{
+    height: 150px;
+  }
+
+  
+
+  
+}
+
+@media screen and (max-width: 470px) {
+  .reservation {
+    bottom: 400px;
+  }
+
+  .inform {
+    height: 400px;
+    background-color: #00000060;
+    padding-top: 0;
+  }
+
+  .in_title {
+    margin-bottom: 0;
+  }
+
+  .in_title p:first-child {
+    font-size: 24px;
+  }
+
+  .in_title p:last-child {
+    font-size: 16px;
+  }
+
+  table {
+    font-size: 16px;
+  }
+
+  .m {
+    font-size: 16px;
+  }
+
+  /* ---------------- */
+
+  .sec5_con{
+    height: 130px;
+  }
+
+  .sec5_con p{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .login,
+  .r_check {
+    display: none;
+  }
+
+  .h_etc {
+    flex-direction: row-reverse;
+    width: 20px;
+  }
+
+  /* header end */
+}
